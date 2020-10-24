@@ -58,6 +58,18 @@ video {
   z-index: 1;
 }
 
+@media only screen and (max-width: 700px) {
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    height: 50%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+  }
+}
+
 .masthead {
   position: relative;
   overflow: hidden;
@@ -159,7 +171,7 @@ video {
   width: 4rem;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .social-icons {
     margin: 0;
     position: absolute;
